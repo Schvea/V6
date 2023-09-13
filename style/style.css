@@ -27,14 +27,28 @@ header {
     padding: 30px, 10%;
 }
 
-
-.header-productly {
-    width: 143.117px;
-    height: 28.973px;
+.logo {
     flex-shrink: 0;
     fill: #173A56;
     stroke-width: 1px;
     stroke: #000;
+    transform: scale(0.2);
+}
+
+.product {
+    transform: translate(590px, 44px);
+}
+
+.customers {
+    transform: translate(610px, 44px);
+}
+
+.pricing {
+    transform: translate(630px, 44px);
+}
+
+.resources {
+    transform: translate(650px, 44px);
 }
 
 .sign-in {
@@ -52,6 +66,8 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transform: translateX(500px);
+
 }
 
 .sign-up {
@@ -70,6 +86,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transform: translateX(320px);
 }
 
 section {
@@ -85,6 +102,10 @@ section {
     font-weight: 700;
     line-height: 54px;
     /* 122.727% */
+}
+
+section {
+    display: inline-block;
 }
 
 .main-title {
