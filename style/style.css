@@ -27,12 +27,15 @@ header {
     padding: 30px, 10%;
 }
 
+.logocolor {}
+
 .logo {
+    width: 143.117px;
+    height: 28.973px;
     flex-shrink: 0;
     fill: #173A56;
     stroke-width: 1px;
     stroke: #000;
-    transform: scale(0.2);
 }
 
 .product {
