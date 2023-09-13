@@ -15,6 +15,15 @@ body {
     display: flex;
 }
 
+.header-productly {
+    width: 143.117px;
+    height: 28.973px;
+    flex-shrink: 0;
+    fill: #173A56;
+    stroke-width: 1px;
+    stroke: #000;
+}
+
 section {
     display: inline-block;
 }
@@ -68,4 +77,14 @@ section {
     text-align: center;
     margin-top: 50px;
     margin-left: 200px;
+}
+
+a {
+    color: #F90;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
 }
