@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background-color: rgb(206, 185, 185);
+}
+
+.header {
+    width: 1400px;
+    height: 78px;
+    text-align: center;
+    background: #FFF;
+    color: rgb(16, 13, 13);
+    font-size: 20px;
+    display: flex;
+}
