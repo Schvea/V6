@@ -5,7 +5,17 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.header {
+a {
+    color: #F90;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+header {
     width: 1400px;
     height: 78px;
     text-align: center;
@@ -13,7 +23,10 @@ body {
     color: rgb(16, 13, 13);
     font-size: 20px;
     display: flex;
+    justify-content: space-between;
+    padding: 30px, 10%;
 }
+
 
 .header-productly {
     width: 143.117px;
@@ -77,14 +90,11 @@ section {
     text-align: center;
     margin-top: 50px;
     margin-left: 200px;
-}
-
-a {
-    color: #F90;
+    border: none;
+    color: #FFF;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
-    text-decoration-line: underline;
 }
