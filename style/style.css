@@ -246,7 +246,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    
+
 }
 
 .alter {
@@ -256,7 +256,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-   
+
 }
 
 .cdd {
@@ -266,8 +266,90 @@ section {
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
-    
+
 }
-.phoneman{
+
+.phoneman {
     transform: translate(1200px, -700px);
+}
+
+.computerman {
+    transform: translate(-220px, 30px);
+}
+
+.testing {
+    transform: translate(1100px, -500px);
+}
+
+.last {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    color: #544837;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px;
+    line-height: 32px;
+    letter-spacing: 0.2em;
+    transform: translate(70px, -140px);
+}
+
+.marketers {
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sameone {
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.sametwo {
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.samethree {
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.distracted {
+    transform: translate(1000px, -900px);
+}
+
+.logofooter {
+    transform: translate(-270px, 50px);
+}
+
+.txtfooter {
+    transform: translate(-270px, 55px);
+}
+
+.contact {
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
 }
