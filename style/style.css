@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1078px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -98,10 +98,16 @@ header {
 }
 
 section {
+    display: flex;
     display: inline-block;
 }
 
+.pictureone {
+    transform: translate(900px, -350px);
+}
+
 .header-three {
+    width: 518px;
     margin-left: 145px;
     color: #2F281E;
     font-family: 'Poppins', sans-serif;
@@ -109,12 +115,9 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: 54px;
-    transform: translate();
+    transform: translate(100px, 77px);
 }
 
-section {
-    display: inline-block;
-}
 
 .main-title {
     max-width: 495px;
@@ -136,13 +139,14 @@ section {
     margin-top: 10px;
     margin-left: 200px;
     color: #544837;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600px;
     line-height: 28px;
     line-height: 32px;
     letter-spacing: 0.2em;
+    transform: translateY(66px);
 }
 
 .main-btn {
@@ -156,9 +160,51 @@ section {
     margin-left: 200px;
     border: none;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.cardtext {
+    width: 539px;
+    color: #2F281E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(640px, 44px);
+}
+
+.container {
+    color: #2F281E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(450px, 80px);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(450px, 80px);
+}
+
+.info-card {
+    color: #544837;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(450px, 80px);
 }
