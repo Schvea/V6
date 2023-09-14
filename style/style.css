@@ -118,21 +118,6 @@ section {
     transform: translate(100px, 77px);
 }
 
-
-.main-title {
-    max-width: 495px;
-    width: 100%;
-    margin-top: 211px;
-    margin-left: 200px;
-    color: #1B0A42;
-    font-family: 'Ramaraja', serif;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 76px;
-    letter-spacing: 0.02em;
-}
-
 .main-info {
     max-width: 583px;
     width: 100%;
@@ -146,7 +131,7 @@ section {
     line-height: 28px;
     line-height: 32px;
     letter-spacing: 0.2em;
-    transform: translateY(66px);
+    transform: translate(53px, 66px);
 }
 
 .main-btn {
@@ -165,6 +150,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transform: translate(53px, 66px);
 }
 
 .cardtext {
@@ -176,7 +162,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transform: translate(640px, 44px);
+    transform: translate(640px, -150px);
 }
 
 .container {
@@ -187,14 +173,14 @@ section {
     font-weight: 600;
     line-height: normal;
     display: flex;
-    justify-content: space-evenly;
-    transform: translate(450px, 80px);
+    justify-content: space-between;
+    transform: translate(450px, -150px);
 }
 
 .icons {
     display: flex;
-    justify-content: space-evenly;
-    transform: translate(450px, 80px);
+    justify-content: space-between;
+    transform: translate(400px, -140px);
 }
 
 .info-card {
@@ -205,6 +191,24 @@ section {
     font-weight: 500;
     line-height: 26px;
     display: flex;
-    justify-content: space-evenly;
-    transform: translate(450px, 80px);
+    justify-content: space-between;
+    transform: translate(450px, -150px);
+}
+.sign-up-now{
+    border-radius: 4px;
+    background: #F90;
+    width: 200px;
+    height: 46px;
+    flex-shrink: 0;
+    border: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(633px, -150px);
 }
